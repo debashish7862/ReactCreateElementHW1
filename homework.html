@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="page">
+
+    </div>
+    <script>
+
+        let topicCovered = React.createElement('div',null,[ React.createElement('h2',null,"Topics covered"),React.createElement('p',null,"The following is a list of all the topics we cover in the MDN learning area."),React.createElement('a',{href:"#"},"Getting started with the web"),React.createElement('p',null,"Provides a practical introduction to web development for complete beginners."),
+        React.createElement("a",{href:"#"},"HTML - Structuring the web"),
+        React.createElement('p',null,"HTML is the language that we use to structure the different parts of our content and define what their meaning or purpose is. This topic teaches HTML in detail."),
+        React.createElement("a",{href:"#"},"CSS - Styling the web"),
+        React.createElement('p',null,"CSS is the language that we use to control our web content's style and layout, as well as adding behavior like animation. This topic provides comprehensive coverage of CSS.")
+    ])
+
+        ReactDOM.render(topicCovered,document.getElementById("page"))
+    </script>
+    
+</body>
+</html>
